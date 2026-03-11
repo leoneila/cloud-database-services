@@ -22,7 +22,7 @@ This lab requires completion of the following:
 
 * Successful Login to a Tenancy with a service limit assigned for the **Oracle Exadata Database Service on Exascale Infrastructure**
 
-## Task 1: (***Pre-Created for this Lab***) Review the Exadata Database Service on Exascale Infrastructure Resources
+## Task 1: Create the Exadata Database Service on Exascale Infrastructure Resources
 
 1. Open the navigation menu. Under **Oracle Database**, click **Exadata Database Service on Exascale Infrastructure**.
 
@@ -79,7 +79,7 @@ This lab requires completion of the following:
 
     **For a new vault, specify the following:** 
     * For the **Exascale Vault name:** enter ***MyDemoStorageVault*** . 
-    * For the **Storage Capacity for Databases (GB):** ***enter 300***. 
+    * For the **Storage Capacity for Databases (GB):** ***enter 600***. 
 
   ![Configure Exascale Storage Vault](./images/configure-storage-vault.png" ")
 
@@ -151,7 +151,7 @@ This lab requires completion of the following:
     - **Compartment:** Select the compartment where the resource will reside.
     - **Display name:** Enter a descriptive name for the resource. *(This can be changed later.)*
     - **Database name prefix:** Define a prefix to be added to all configured database names for easy identification.
-    - **Database version:** Select ***Oracle Database 23ai*** (currently supported release).
+    - **Database version:** Select ***Oracle Database 26ai*** (currently supported release).
    
    ![Provide Basic configuration details](./images/provide-basic-info.png "Provide Basic configuration details")
 

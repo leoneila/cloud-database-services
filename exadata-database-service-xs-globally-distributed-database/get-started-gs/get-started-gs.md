@@ -37,10 +37,10 @@ This lab walks you through the required steps to configure your Oracle Cloud Inf
 
    | Limits Name | Description | Value |
    |-------------|-------------|----------|
-   | exadbxs-vm-instance-base-count|Exadata Database Service on Exascale Infrastructure - Instance Count| >= **2**|
-   | exadbxs-total-cpu-base-count | Exadata Database Service on Exascale Infrastructure - Total ECPU Count | >= **24**  |
-   | exadbxs-local-storage-base-gb     | Exadata Database Service on Exascale Infrastructure - Local Storage (GB)    | >= **600** GB  |
-   | exadbxs-hc-storage-base-gb        | Exadata Database Service on Exascale Infrastructure - High Capacity Storage (GB) | >= **600** GB
+   | exadbxs-vm-instance-base-count|Exadata Database Service on Exascale Infrastructure - Instance Count (Number of VM Instances)| >= **4**|
+   | exadbxs-total-cpu-base-count | Exadata Database Service on Exascale Infrastructure - Total ECPU Count | >= **64**  |
+   | exadbxs-local-storage-base-gb     | Exadata Database Service on Exascale Infrastructure - Local Storage (GB)    | >= **2400** GB  |
+   | exadbxs-hc-storage-base-gb        | Exadata Database Service on Exascale Infrastructure - High Capacity Storage (GB) | >= **2400** GB
 
 
 * **Required IAM Policy for Oracle Exadata Database Service on Exascale Infrastructure** - Configure the [<u>**required Identity Access Management (IAM) Policy**</u>](https://docs.oracle.com/en-us/iaas/exadb-xs/doc/preparing-for-exadb-xs-deployment.html#GUID-EA03F7BC-7D8E-4177-AFF4-615F71C390CD) for provisioning Oracle Exadata Database Service on Exascale Infrastructure systems
@@ -175,6 +175,7 @@ Create policies to assign least privilege access to the defined groups and dynam
       `Oracle-ApplicationName.Other_Oracle_Application: Sharding`
     - Set the same time zone for all clusters.
 
+***Please follow Lab 1, Task 1 for the step-by-step guide to provision the Exadata Database Service on an Exascale instance.***
 
 ## Appendix: Sample IAM Policy Statements
 
