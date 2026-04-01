@@ -2,13 +2,13 @@
 
 ## Introduction
 
-  This lab walks you through to discover the Globally Distributed Exadata Database on Exascale Infrastructure Resource.
+  This lab walks you through how to locate and explore the Globally Distributed Exadata Database on Exascale Infrastructure resource within the Oracle Cloud Infrastructure (OCI) Console. You will familiarize yourself with where this service is accessed and understand its role within the OCI resource model.
 
-**Estimated Time:** ***5 minutes***
+**Estimated Time:** ***10 minutes***
 
 ### Objectives
 
--   After completing this lab, you should be able to.... 
+-   After completing this lab, you should be able to navigate the OCI Console to locate the Globally Distributed Exadata Database on Exascale Infrastructure service, identify where distributed database resources are managed within OCI, and understand the key components and options available for this service.
 
 
 ### Prerequisites

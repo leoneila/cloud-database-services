@@ -8,9 +8,6 @@ This lab guides you through the process of creating a Globally Distributed Exada
 
 **Estimated Time:** ***2 Hours 10 minutes***
 
-Watch the video below for a quick walk-through of the lab.
-  [Create a Custom Database Software Image](youtube:ggh0pIuPj2g)
-
 ### Objectives
 
 -   After completing this lab, you should be able to Create a Globally Distributed Exadata Database on Exascale Infrastructure Resource using the OCI Console.
@@ -133,7 +130,15 @@ This lab requires completion of the following:
   ![Choose VM Cluster License Type](./images/choose-license-type.png" ")
  
   
-9. Click **Create VM Cluster** to proceed with provisioning. 
+9. In the **Advanced options**, Add the imported tag from ***Get Started Lab Task 6***:  
+    
+    * **Namespace:** ***Oracle-ApplicationName***
+    * **Key:** ***Other_Oracle_Application*** 
+    * **Value:** ***Sharding***
+  
+  ![Add Tags](./images/apply-tags.png" ")
+
+10.  Click **Create** to proceed with the VM Cluster provisioning. 
 
 ## Task 2: Create a Globally Distributed Exadata Database on Exascale Infrastructure Resource
 
@@ -268,8 +273,7 @@ This lab guides you through deploying your configured Globally Distributed Exada
 
 - You have already created and configured the Distributed ExaDB-XS resource and any desired shards or configuration changes.
 
-> **Note:**  
-> You must deploy the Distributed ExaDB-XS within 7 days of completing the initial configuration or adding shards. Failure to deploy within this window requires you to terminate resources and start again.
+> **Note:** You must deploy the Distributed ExaDB-XS within 7 days of completing the initial configuration or adding shards. Failure to deploy within this window requires you to terminate resources and start again.
 
 
 1. In the **Globally Distributed Exadata Database on Exascale Infrastructure**  page. Select the Distributed ExaDB-XS you are ready to deploy.
@@ -299,22 +303,6 @@ This lab guides you through deploying your configured Globally Distributed Exada
    If deployment is not performed within the 7-day window after configuring or modifying shards, resources must be deleted and recreated.
 
 
-
-
-
-
-   
-
-## Task 4: Discover the Globally Distributed Exadata Database on Exascale Infrastructure Resource 
-
-1. Navigate to Distributed ExaDB-XS.
-   
-2. Review environment details such as region, shard count, and replication type.
-   
-3. Use the Actions Menu to view configuration details and settings.
-   
-4. Understand preconfigured prerequisites for the Global Distributed Database environment
-
     
 ***!!! Congratulations:*** You may now **proceed to the next lab**. 
 
@@ -327,4 +315,4 @@ This lab guides you through deploying your configured Globally Distributed Exada
 
 * **Author** - Leo Alvarado, Deeksha Shrivastava, Shefali Bhargava,  Product Management, Product Management
   
-* **Last Updated By** - Leo Alvarado, Product Management, Nov 2025.
+* **Last Updated By** - Leo Alvarado, Product Management, Mar 2026.

@@ -2,7 +2,13 @@
 
 ## About this Workshop
 
-In this hands-on workshop, you'll explore Oracle's cutting-edge distributed database solution that combines the power of sharded databases with Exadata Database on  Exascale infrastructure. Oracle Globally Distributed Exadata Database on Exascale Infrastructure is a fully managed cloud service designed for mission-critical applications that demand massive scale, high availability, and global distribution. You'll learn how data is sharded across geographically distributed databases, how Raft replication provides consensus-based availability with zero data loss, and how Exascale technology decouples compute from storage to deliver flexible, dynamic provisioning. By the end of this lab, you'll understand how to deploy and manage a globally distributed database architecture that can handle enterprise-scale workloads with exceptional performance and reliability.
+In this hands-on workshop, you'll explore Oracle's cutting-edge distributed database solution that combines the power of sharded databases with Exadata Database on  Exascale infrastructure. Oracle Globally Distributed Exadata Database on Exascale Infrastructure is a fully managed cloud service designed for mission-critical applications that demand massive scale, high availability, and global distribution. 
+
+Rather than just learning concepts, you will actively **build**, **configure**, and **operate** a globally distributed database environment.
+
+You'll learn how data is sharded across geographically distributed databases, how Raft replication provides consensus-based availability with zero data loss, and how Exascale technology decouples compute from storage to deliver flexible, dynamic provisioning. By the end of this lab, you'll understand how to deploy and manage a globally distributed database architecture that can handle enterprise-scale workloads with exceptional performance and reliability.
+
+![introduction](./images/gdd-architecture.png " ")
 
 This workshop is designed to provide you with hands on experience using the Oracle Globally Distributed Exadata Database on Exascale Infrastructure.
 
@@ -13,7 +19,7 @@ By the end of this lab, you'll understand how to deploy and manage a globally di
 Don’t miss your chance to be one of the first to gain hand-on experience with Exadata & the Exascale technology stack.
 
 
-**Estimated Workshop Time:** ***1 hour 30 minutes***
+**Estimated Workshop Time:** ***2 hours 45 minutes***
 
 
 ### **Oracle Exadata Exascale: World’s Only Intelligent Data Architecture for Cloud**
