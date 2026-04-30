@@ -38,7 +38,13 @@ In this lab, you'll explore Oracle Agent Factory, a no-code platform built into 
    </copy>
    ```
 
-   ![Agent Factory creation succeeded](images/creation-succeeded.png "Agent Factory creation succeeded")
+   ![Agent Factory creation succeeded](images/af-login.png "Agent Factory creation succeeded")
+
+4. Login with you assigned username and password. 
+   
+   ![Agent Factory creation succeeded](images/login-af.png "Agent Factory creation succeeded")
+   
+
 
 
 ## Task 2: Understand the Private Agent Factory Interface
