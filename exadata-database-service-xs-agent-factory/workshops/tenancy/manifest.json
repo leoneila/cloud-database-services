@@ -3,7 +3,7 @@
   "help": "livelabs-help-database_us@oracle.com",
   "tutorials": [
     {
-      "title": "Introduction to Oracle AI Database Private Agent Factory",
+      "title": "Introduction",
       "filename": "../../introduction/introduction.md"
     },
     {
