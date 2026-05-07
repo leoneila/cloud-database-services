@@ -30,16 +30,16 @@ In this lab, you will login to your OCI environment to launch the Oracle AI Data
 
 1. Go to [<u>**cloud.oracle.com**</u>](https://cloud.oracle.com/?region=af-johannesburg-1&tenant=livelabs4exadb) and enter your **Cloud Account Name** *(**OCI Tenancy**)*. 
 
-   ![select cloud tenancy](./images/select-cloud-tenancy.png " ")
+    ![select cloud tenancy](./images/select-cloud-tenancy.png " ")
 
 
 2. Enter your assigned **username** and **password** and click **Sign In** 
 
-   ![cloud tenancy sign-in](./images/cloud-tenancy-sign-in.png " ")
+    ![cloud tenancy sign-in](./images/cloud-tenancy-sign-in.png " ")
 
 3. You are now signed in to Oracle Cloud! 
    
-   ![oci login landing page](./images/oci-login-landing-page.png " ")
+    ![oci login landing page](./images/oci-login-landing-page.png " ")
 
 4. Select the **South Africa Central** Region.
 

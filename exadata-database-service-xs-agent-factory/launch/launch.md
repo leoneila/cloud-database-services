@@ -22,23 +22,23 @@ In this lab, you'll explore Oracle Agent Factory, a no-code platform built into 
 
 1. In the OCI Console navigation menu, click on **Compute** then select **Instances**. 
 
-   ![Compute Instance](images/select-compute.png "Compute Instance")
+    ![Compute Instance](images/select-compute.png "Compute Instance")
 
 2. In the **Applied filters**, select your assigned compartment **MyCompartmentXX**. Click on your assigned compute instance named **AgentFactoryVM-XX**.
    
-   ![Compute Instance](images/click-compute.png "Compute Instance")
+    ![Compute Instance](images/click-compute.png "Compute Instance")
 
 3. Launch the Application URL
    
-* Copy the public address and replace the **{instance-public-ip}** for the application URL, which has the format:
+    * Copy the public address and replace the **{instance-public-ip}** for the application URL, which has the format:
 
-   ```
-   <copy>
-   https://{instance_public_ip}:8080/agentFactory/
-   </copy>
-   ```
+    ```
+    <copy>
+    https://{instance_public_ip}:8080/agentFactory/
+    </copy>
+    ```
 
-   ![Agent Factory creation succeeded](images/af-login.png "Agent Factory creation succeeded")
+    ![Agent Factory creation succeeded](images/af-login.png "Agent Factory creation succeeded")
 
 4. Login with you assigned username and password. 
    
@@ -59,19 +59,19 @@ In this lab, you'll explore Oracle Agent Factory, a no-code platform built into 
 
 1. In the AI Database Private Agent Factory page, under the **PRE-BUILT AGENTS** select **Data Analysis agents**.
 
-   ![Data Analysis](images/click-create-data-analysis.png "Data Analysis")
+    ![Data Analysis](images/click-create-data-analysis.png "Data Analysis")
 
 2. In the **Data analysis agents** page, Click on **Create agent**. 
    
-   ![Data Analysis](images/click-create-agent.png "Data Analysis")
+    ![Data Analysis](images/click-create-agent.png "Data Analysis")
 
 3. In the **Create data analysis agent** page Under the **Select data sources**, Select **ATLADB** search **crime** in the Views / Tables and Select on the ***ATLUSER.OPENDATAWEBSITE_CRIME_VIEW_1994807781504248925***.
 
-   ![Data Analysis](images/select-database-source.png "Data Analysis")
+    ![Data Analysis](images/select-database-source.png "Data Analysis")
 
 4. Confirm the selected table and click on **Next**.
 
-   ![Data Analysis](images/setup-ds.png "Data Analysis")
+    ![Data Analysis](images/setup-ds.png "Data Analysis")
 
 5. Fill in the **Agent Name**, **Description**, and **Help description**. Click on **Next**
 
