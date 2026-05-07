@@ -1,5 +1,11 @@
 # Get started - Setting Up the Environment for Oracle Globally Distributed Exadata Database on Exascale Infrastructure
 
+### Objectives
+
+In this lab, you will:
+* TODO: Add objectives
+
+
 
 ## **Introduction**
 
@@ -63,16 +69,20 @@ By the end of this lab, your OCI tenancy will be fully prepared to support the d
 * **Required IAM Policy for Oracle Exadata Database Service on Exascale Infrastructure** - Configure the [<u>**required Identity Access Management (IAM) Policy**</u>](https://docs.oracle.com/en-us/iaas/exadb-xs/doc/preparing-for-exadb-xs-deployment.html#GUID-EA03F7BC-7D8E-4177-AFF4-615F71C390CD) for provisioning Oracle Exadata Database Service on Exascale Infrastructure systems
 
 
+## Introduction
+
+TODO: Add introduction text here.
+
 ## Task 1: Log in to Oracle Cloud Tenancy
 
 1. Go to [<u>**cloud.oracle.com**</u>](https://cloud.oracle.com/?region=us-sanjose-1&tenant=livelabs4exadb) and enter your **Cloud Account Name** *(**OCI Tenancy**)*. 
 
-   ![select cloud tenancy](./images/select-cloud-tenancy.png " ")
+    ![select cloud tenancy](./images/select-cloud-tenancy.png " ")
 
 
 2. Enter your **username** and **password** and click **Sign In** 
 
-   ![cloud tenancy sign-in](./images/cloud-tenancy-sign-in.png " ")
+    ![cloud tenancy sign-in](./images/cloud-tenancy-sign-in.png " ")
 
 3. You are now signed in to Oracle Cloud! 
    
@@ -117,22 +127,22 @@ By the end of this lab, your OCI tenancy will be fully prepared to support the d
 
 1. Create User Groups, Navigate to **Identity & Security > Groups** in the OCI console and create the groups below.
 
-| Group Name               | Description                                          |
-|--------------------------|------------------------------------------------------|
-| gdd-certificate-admins   | For certificate admins managing keys and vaults      |
-| gdd-infrastructure-admins| For infrastructure admins managing networking, Exadata, and distributed database resources |
-| gdd-users                | For users managing distributed database resources    |
+    | Group Name               | Description                                          |
+    |--------------------------|------------------------------------------------------|
+    | gdd-certificate-admins   | For certificate admins managing keys and vaults      |
+    | gdd-infrastructure-admins| For infrastructure admins managing networking, Exadata, and distributed database resources |
+    | gdd-users                | For users managing distributed database resources    |
 
 
 2. Create Dynamic Groups
 
-| Dynamic Group Name   | Description                                  | Matching Rules (example)                                      |
-|----------------------|----------------------------------------------|---------------------------------------------------------------|
-| gdd-cas-dg           | For certificate authority resources          | `resource.type='certificateauthority'`<br/>`resource.compartment.id = 'OCID of compartment tenant root / gdd / gdd_certs_vaults_keys'`|
-| gdd-clusters-dg      | For Exadata VM cluster resources             | `resource.compartment.id = 'OCID of compartment tenant root / gdd / gdd_clusters'`|
-| gdd-instances-dg     | For compute instance resources               | `resource.compartment.id = 'OCID of compartment tenant root / gdd / gdd_instances'`|
+    | Dynamic Group Name   | Description                                  | Matching Rules (example)                                      |
+    |----------------------|----------------------------------------------|---------------------------------------------------------------|
+    | gdd-cas-dg           | For certificate authority resources          | `resource.type='certificateauthority'`<br/>`resource.compartment.id = 'OCID of compartment tenant root / gdd / gdd_certs_vaults_keys'`|
+    | gdd-clusters-dg      | For Exadata VM cluster resources             | `resource.compartment.id = 'OCID of compartment tenant root / gdd / gdd_clusters'`|
+    | gdd-instances-dg     | For compute instance resources               | `resource.compartment.id = 'OCID of compartment tenant root / gdd / gdd_instances'`|
 
-   Create these under **Identity & Security > Dynamic Groups**.
+    Create these under **Identity & Security > Dynamic Groups**.
 
 3. Define IAM Policies
 

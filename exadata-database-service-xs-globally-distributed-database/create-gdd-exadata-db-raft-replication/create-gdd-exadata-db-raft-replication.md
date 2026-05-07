@@ -21,40 +21,40 @@ This lab requires the completion of the following:
 
 1. Navigate to Globally Distributed Exadata Database on Exascale Infrastructure page.
    
-   ![select the gdd instance](./images/navigate-gdd.png "select the gdd instance")
+    ![select the gdd instance](./images/navigate-gdd.png "select the gdd instance")
    
 2. Review the environment details such as region, shard count, and replication type.
 
-   Go to the **Shards** tab to view list of all shards with their configuration settings. 
+    Go to the **Shards** tab to view list of all shards with their configuration settings. 
 
-   ![discover shards](./images/discover-shards.png "discover shards")
+    ![discover shards](./images/discover-shards.png "discover shards")
 
-   Select **View Replication Units** in the action Menu to see the status of the replication unit leaders and followers on each shard. 
+    Select **View Replication Units** in the action Menu to see the status of the replication unit leaders and followers on each shard. 
 
-   ![View Replication Units](./images/click-view-replication.png "View Replication Units")
+    ![View Replication Units](./images/click-view-replication.png "View Replication Units")
 
-   ![View Replication Units](./images/view-rep-details.png "View Replication Units")
+    ![View Replication Units](./images/view-rep-details.png "View Replication Units")
 
-   Select **Additional shard details** for more details.
+    Select **Additional shard details** for more details.
    
 3. Go to the **Catalog** tab to view the configuration settings for the catalog database.
 
-   Use the Actions Menu to view configuration details and settings.
+    Use the Actions Menu to view configuration details and settings.
    
 4. Go to the **Resource map** to display a visual representation of the shards and catalog configuration. 
 
-   ![view resource map](./images/view-resource-map.png "view resource map")
+    ![view resource map](./images/view-resource-map.png "view resource map")
 
 
-   Hover over the numbers to see some configuration information, including availability domain (AD), and click the information icon for more details.
+    Hover over the numbers to see some configuration information, including availability domain (AD), and click the information icon for more details.
 
-   ![view map details](./images/view-map-details.png "view map details")
+    ![view map details](./images/view-map-details.png "view map details")
 
 5. **Replication details** displays a list of the replication units by ID number and each member is labeled with the shard it resides on.
 
-   ![view replication details](./images/view-rep-details.png "view replication details")
+    ![view replication details](./images/view-rep-details.png "view replication details")
 
-   Understand preconfigured prerequisites for the Global Distributed Database environment.
+    Understand preconfigured prerequisites for the Global Distributed Database environment.
 
 6. Click on the **Monitoring** tab to view and monitor the shards.
 

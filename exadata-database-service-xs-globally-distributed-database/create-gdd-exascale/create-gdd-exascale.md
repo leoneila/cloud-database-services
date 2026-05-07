@@ -23,11 +23,11 @@ This lab requires completion of the following:
 
 1. Open the navigation menu. Under **Oracle Database**, click **Exadata Database Service on Exascale Infrastructure**.
 
-  ![Navigate to Exadata Database Service on Exascale Infrastructure](./images/console-to-exadb-xs.png" ")
+    ![Navigate to Exadata Database Service on Exascale Infrastructure](./images/console-to-exadb-xs.png" ")
 
 2. In the left rail, **VM Clusters** is selected by default. In the **Applied filters**, Select ***US East (Ashburn)*** for the region and ***gdd_clusters*** for the compartment. Click the **Create VM Cluster** button. 
   
-  ![Click Create VM Cluster](./images/click-create-vm-cluster.png" ")
+    ![Click Create VM Cluster](./images/click-create-vm-cluster.png" ")
     
     This causes the **Create VM Cluster** page to be displayed.  
 
@@ -41,7 +41,7 @@ This lab requires completion of the following:
 
     * For **Availability Domain**: Select the availability domain from the displayed options available. 
 
- ![Provide Basic VM Cluster Info](./images/provide-basic-vm-cluster-info-exascale.png" ")
+    ![Provide Basic VM Cluster Info](./images/provide-basic-vm-cluster-info-exascale.png" ")
 
 4. **To Configure the VM cluster, provide the following information:** 
     * For the **Number of VMs in the cluster**: ***Enter 1***
@@ -78,7 +78,7 @@ This lab requires completion of the following:
     * For the **Exascale Vault name:** enter ***MyDemoStorageVault*** . 
     * For the **Storage Capacity for Databases (GB):** ***enter 600***. 
 
-  ![Configure Exascale Storage Vault](./images/configure-storage-vault.png" ")
+    ![Configure Exascale Storage Vault](./images/configure-storage-vault.png" ")
 
     For **Storage auto scaling**, ensure the ***Storage auto scaling toggle switch*** is turned on. By default, the **Storage auto scaling** is on.  
    
@@ -102,7 +102,7 @@ This lab requires completion of the following:
         * **Upload SSH key files**: Select this option to browse or drag and drop .pub files. 
         * **Paste SSH keys:** Select this option to paste in individual public keys.
 
-  ![Configure Grid Infrastructure and SSH access](./images/configure-gi-ssh.png" ")
+    ![Configure Grid Infrastructure and SSH access](./images/configure-gi-ssh.png" ")
  
 
 7. **To Configure the network settings, Select VCN and select Client and Backup subnet** 
@@ -114,20 +114,20 @@ This lab requires completion of the following:
     
     * **For the Hostname Prefix:** Enter the hostname
 
-  ![Configure Network Settings](./images/configure-network-settings.png" ")
+    ![Configure Network Settings](./images/configure-network-settings.png" ")
 
 8. **Select license type & choose opt-in choices for Diagnostic & Collections options.**
     * **Choose a license type:** The type of license that you want to use for the VM cluster. Your choice affects metering for billing. Select the ***Bring Your Own License (BYOL)*** OR ***License Included*** option.
 
-  **Select Diagnostic and Collections Options**
+    **Select Diagnostic and Collections Options**
 
-  In the Edit Diagnostics Collection Settings dialog, you can enable or disable any of the Diagnostics Collections options. By enabling diagnostics collection and notifications, Oracle Cloud Operations and you will be able to identify, investigate, track, and resolve guest VM issues quickly and effectively. ***Accept the default values***.
+    In the Edit Diagnostics Collection Settings dialog, you can enable or disable any of the Diagnostics Collections options. By enabling diagnostics collection and notifications, Oracle Cloud Operations and you will be able to identify, investigate, track, and resolve guest VM issues quickly and effectively. ***Accept the default values***.
 
     * **Enable Diagnostics Events:** Allows Oracle to collect and publish critical, warning, error, and information events to me. For more information, see Overview of Database Service Events
     * **Enable Health Monitoring:** Allows Oracle to collect health metrics/events such as Oracle Database up/down, disk space usage, and so on, and share them with Oracle Cloud operations. You will also receive notification of some events. 
     * **Enable Incident logs and trace collection:** Allows Oracle to collect incident logs and traces to enable fault diagnosis and issue resolution. 
   
-  ![Choose VM Cluster License Type](./images/choose-license-type.png" ")
+    ![Choose VM Cluster License Type](./images/choose-license-type.png" ")
  
   
 9. In the **Advanced options**, Add the imported tag from ***Get Started Lab Task 6***:  
@@ -136,19 +136,19 @@ This lab requires completion of the following:
     * **Key:** ***Other_Oracle_Application*** 
     * **Value:** ***Sharding***
   
-  ![Add Tags](./images/apply-tags.png" ")
+    ![Add Tags](./images/apply-tags.png" ")
 
-10.  Click **Create** to proceed with the VM Cluster provisioning. 
+10. Click **Create** to proceed with the VM Cluster provisioning. 
 
 ## Task 2: Create a Globally Distributed Exadata Database on Exascale Infrastructure Resource
 
 1. Navigate to the **Globally Distributed Exadata Database on Exascale Infrastructure** list page in your Oracle Cloud Console.
    
-   ![Navigate to Globally Distributed Exadata Database on Exascale Infrastructure](./images/navigate-gdd.png "Navigate to Globally Distributed Exadata Database on Exascale Infrastructure")
+    ![Navigate to Globally Distributed Exadata Database on Exascale Infrastructure](./images/navigate-gdd.png "Navigate to Globally Distributed Exadata Database on Exascale Infrastructure")
 
 2. Click **Create Database**.
    
-   ![Create Database](./images/create-database.png "Create Database")
+    ![Create Database](./images/create-database.png "Create Database")
 
 3. **Provide Basic Information**
 
@@ -158,7 +158,7 @@ This lab requires completion of the following:
     - **Database name prefix:** Define a prefix to be added to all configured database names for easy identification.
     - **Database version:** Select ***Oracle Database 26ai*** (currently supported release).
    
-   ![Provide Basic configuration details](./images/provide-basic-info.png "Provide Basic configuration details")
+    ![Provide Basic configuration details](./images/provide-basic-info.png "Provide Basic configuration details")
 
 4. **Configure Shards**
 
@@ -166,7 +166,7 @@ This lab requires completion of the following:
     - **Map View:** Click the region where you want to deploy shards, then choose **Configure Shards** to enter their settings.
     - **List View:** Input all settings directly on the Create page.
    
-   ![Configure Shards](./images/configure-shards.png "Configure Shards")
+    ![Configure Shards](./images/configure-shards.png "Configure Shards")
 
     Provide the following details:
     - **Data distribution:** Only `Automated` (uses partitioning by consistent hash) is currently supported. `User managed` is not supported.
@@ -174,7 +174,7 @@ This lab requires completion of the following:
     - **Replication type:** Set this to `Raft`. Raft creates replication units and manages chunk assignment, movement, and workload balancing.
     - **Replication factor:** Select a factor less than the shard count—the number of replicas in a unit, including the leader and its followers.
    
-   ![Configure Shards](./images/configure-shards-page.png "Configure Shards")
+    ![Configure Shards](./images/configure-shards-page.png "Configure Shards")
 
     - **Shards list:** 
         - Use **+ Add Shard** to add each shard.
@@ -183,11 +183,11 @@ This lab requires completion of the following:
         - **Recommendation:** Use one VM cluster per database (shard or catalog).
     - *For Exadata VM cluster configuration requirements/recommendations, see [Create Exadata VM Clusters on Exascale Infrastructure].*
    
-   ![Configure Shards](./images/configure-shards-clusters.png "Configure Shards")
+    ![Configure Shards](./images/configure-shards-clusters.png "Configure Shards")
    
-   Click on **Save Changes**
+    Click on **Save Changes**
 
-   ![Configure Shards](./images/configure-shards-map.png "Configure Shards")
+    ![Configure Shards](./images/configure-shards-map.png "Configure Shards")
    
 
 5. **Configure Shard Catalog**
@@ -205,7 +205,7 @@ This lab requires completion of the following:
         - **Recommendation:** Use one VM cluster per database.
     - *Note: Raft replication type does not apply to the catalog. For catalog replication, use a Data Guard standby.*
    
-   ![Configure Shard catalog](./images/shard-catalog.png "Configure Shard catalog")
+    ![Configure Shard catalog](./images/shard-catalog.png "Configure Shard catalog")
    
 
 6. **Configure Additional Settings**
@@ -213,19 +213,19 @@ This lab requires completion of the following:
     Provide the following advanced and security-related configurations:
     - **Create administrator credentials:** Define the ADMIN user for all shard and catalog databases.
    
-   ![Create administrator credentials](./images/admin-credentials.png "Create administrator credentials")
+    ![Create administrator credentials](./images/admin-credentials.png "Create administrator credentials")
 
     - **Encryption key:** Select the vault and key created in **Task 5. Configure Security Resources** (from previous environment setup).
     - **Select private endpoint:** Choose the private endpoint created for Distributed ExaDB-XS (from your network configuration setup).
    
-   ![Configure encryption key](./images/encryption-key.png "Configure encryption key")
+    ![Configure encryption key](./images/encryption-key.png "Configure encryption key")
 
     - **Select character sets:** Choose character sets for all databases.  
         - **Recommendation:** AL32UTF8 (Character set), AL16UTF16 (National character set).
     - **Select ports:** Enter the GSM listener port, ONS port (local), and ONS port (remote).  
         - *Each remote ONS port must be unique for each distributed database.*
    
-   ![Configure character sets and ports](./images/character-sets-and-ports.png "Configure character sets and ports")
+    ![Configure character sets and ports](./images/character-sets-and-ports.png "Configure character sets and ports")
 
     - **Advanced options: Chunks:** Optionally configure the number of chunks per shard.
     - **Advanced options: Replication unit:** View the number of Raft replication units. Each unit contains a set of chunks and has a leader and replicas distributed across shards.
@@ -235,11 +235,11 @@ This lab requires completion of the following:
 7. **Validate and Create the Resource**
     - Click **Validate** to run system checks against your configuration.
    
-   ![Click on Validate](./images/validate.png "Click on Validate")
+    ![Click on Validate](./images/validate.png "Click on Validate")
 
     - Address any validation errors, if present, and re-run validation as needed.
    
-   ![Validate Successful](./images/validate-successful.png "Validate Successful")
+    ![Validate Successful](./images/validate-successful.png "Validate Successful")
 
   
 
@@ -280,15 +280,15 @@ This lab guides you through deploying your configured Globally Distributed Exada
    
 2. On the details page for the selected resource, choose **Configure Sharding**.
    
-   ![Click configure sharding](./images/configure-sharding-click.png "Click configure sharding")
+    ![Click configure sharding](./images/configure-sharding-click.png "Click configure sharding")
 
-   ***(Optional)*** **Rebalance Shards:**
+    ***(Optional)*** **Rebalance Shards:**
 
-   ![rebalance option](./images/shard-rebalance.png "rebalance option")
+    ![rebalance option](./images/shard-rebalance.png "rebalance option")
    
-   If this is not the initial deployment (i.e., you have added or removed shards), you can select **Data rebalance**.
+    If this is not the initial deployment (i.e., you have added or removed shards), you can select **Data rebalance**.
    
-   Rebalancing automatically redistributes data across the configured shards for Automated Sharding type.
+    Rebalancing automatically redistributes data across the configured shards for Automated Sharding type.
 
 3. Select **Configure Sharding** to begin the deployment process.
    

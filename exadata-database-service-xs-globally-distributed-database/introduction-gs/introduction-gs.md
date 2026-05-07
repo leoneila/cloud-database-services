@@ -1,5 +1,11 @@
 # Introduction
 
+### Objectives
+
+In this lab, you will:
+* TODO: Add objectives
+
+
 ## About this Workshop
 
 In this hands-on workshop, you'll explore Oracle's cutting-edge distributed database solution that combines the power of sharded databases with Exadata Database on  Exascale infrastructure. Oracle Globally Distributed Exadata Database on Exascale Infrastructure is a fully managed cloud service designed for mission-critical applications that demand massive scale, high availability, and global distribution. 

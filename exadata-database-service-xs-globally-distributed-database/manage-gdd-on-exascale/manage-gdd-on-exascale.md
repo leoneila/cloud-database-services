@@ -21,6 +21,11 @@ This lab requires the completion of the following:
 * Successful creation of a VM Cluster on Exadata Database Service on Exascale Infrastructure.
 
 
+### Objectives
+
+In this lab, you will:
+* TODO: Add objectives
+
 ## Task 1: Adding Shards to a Globally Distributed Exadata Database on Exascale Infrastructure
 
 This lab demonstrates how to add new shards to scale out your **Globally Distributed Exadata Database on Exascale Infrastructure**. Adding shards allows you to increase capacity and improve performance by horizontally expanding the database across additional resources.
@@ -34,15 +39,15 @@ You can add shards in the following scenarios:
 
 1. In the Oracle Cloud Console, go to the **Globally Distributed Exadata Database on Exascale Infrastructure** list page.
    
-   Select the Distributed Exadata Database Service on Exascale Infrastructure Instance to which you intend to add shards.
+    Select the Distributed Exadata Database Service on Exascale Infrastructure Instance to which you intend to add shards.
 
-   ![select the gdd instance](./images/select-gdd.png "select the gdd instance")
+    ![select the gdd instance](./images/select-gdd.png "select the gdd instance")
 
 2. On the resource's detail page, under **Shards**, click **Add Shard**.
    
-   ![add shard](./images/add-shard.png "add shard")
+    ![add shard](./images/add-shard.png "add shard")
 
-   **Configure the New Shard(s)**
+    **Configure the New Shard(s)**
 
     - In the **Add shard** panel, configure each new shard with the following settings:
 
