@@ -29,20 +29,20 @@ You can quickly build your data-defined agents by connecting your data to the Ag
 
 2. Navigate to the **Data sources** tab and click the **+ Add data source** button. For **Source type** select *File Source*. Set your **Title**, e.g. *Oracle Private Agent Factory Docs*. Set your **Description**, e.g. *A PDF subset of the Oracle Private Agent Factory Documentation*. Finally, drag and drop the PDF from step 1.
 
-    ![Screenshot of the adding data sources page.](images/ka-data-add.png)
+    ![Screenshot of the adding data sources page.](images/knowledge-data-add.png)
 
 3. Navigate to the **Knowledge agents** tab. Select **+ Create Agent** in the top right.
 
-    ![Screenshot of the Knowledge Agent page.](images/ka-page.png)
+    ![Screenshot of the Knowledge Agent page.](images/knowledge-page.png)
 
 4. Select your data sources by navigating to **File system** and selecting the PDF you uploaded in step 2 (e.g. Oracle Private Agent Factory Docs). Then select **Next**.
     > Note: It may take a couple of minutes for the PDF to be fully vectorized and ready to use.
 
-    ![Screenshot of the Knowledge Agent data sources.](images/ka-data.png)
+    ![Screenshot of the Knowledge Agent data sources.](images/knowledge-data.png)
 
 5. Give your agent a *Name* and *Description* (e.g. "Oracle Private Agent Factory Documentation Agent", and "A Knowledge Agent to assist with any queries from users of the Private Agent Factory.") Optionally, you can provide a *Help Description* which informs other agents on how to collaborate with this agent. Finally, select **Next**.
 
-    ![Screenshot of the Knowledge Agent configuration.](images/ka-config.png)
+    ![Screenshot of the Knowledge Agent configuration.](images/knowledge-config.png)
 
 6. Select **Publish Agent**.
 
@@ -50,7 +50,7 @@ You can quickly build your data-defined agents by connecting your data to the Ag
 
 8. Ask your agent a question based on the PDF you uploaded. For example, "What are the different ways to build an Agent within the Oracle Private Agent Factory?"
 
-    ![Screenshot of the Knowledge Agent being used.](images/ka-deployed.png)
+    ![Screenshot of the Knowledge Agent being used.](images/knowledge-deployed.png)
 
 Note how the Knowledge Agent answers your question, and provides citations into the original document for you to audit if need be. Clicking on the blue links will take you to the exact page being referenced. Finally, notice that the agent generates follow-up questions that you might be interested in.
 
