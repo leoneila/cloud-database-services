@@ -1,0 +1,30 @@
+{
+  "workshoptitle": "Building Multicloud AI Agents on Oracle AI Database with Oracle AI Database Private Agent Factory",
+  "help": "livelabs-help-database_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "filename": "../../introduction/introduction.md"
+    },
+    {
+      "title": "Get Started",
+      "filename": "../../get-started/get-started.md"
+    },
+    {
+      "title": "Lab 1: Building Multicloud AI Agents on Oracle AI Database with Oracle AI Database Private Agent Factory",
+      "filename": "../../launch/launch.md"
+    },
+    {
+      "title": "Lab 2: Build a Multicloud RAG Application with Oracle Exadata Exascale and Oracle AI Vector Search",
+      "filename": "../../prebuilt/prebuilt.md"
+    },
+    {
+      "title": "Lab 3: Check Your Understanding",
+      "filename": "../../check-your-understanding/check-your-understanding.md"
+    },
+    {
+      "title": "Need Help?",
+      "filename": "../../need_help/need_help.md"
+    }
+  ]
+}
