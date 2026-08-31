@@ -13,3 +13,8 @@
 ## Task 3: Configure a Knowledge Agent to use a private model (if the environment is preconfigured). 
 ## Task 4: Compare public and private inference flows.
 
+
+## Acknowledgements
+
+* **Author** - TODO: Your Name, Your Title, Your Organization
+* **Last Updated By/Date** - TODO: Your Name, Month Year

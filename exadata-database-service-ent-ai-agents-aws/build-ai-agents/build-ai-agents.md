@@ -40,7 +40,7 @@ In this task, you will access Oracle AI Database Private Agent Factory and famil
 
 1. Open the **Oracle AI Database Private Agent Factory** URL provided for the workshop.
 
-   > **Note:** Your instructor or workshop environment provides the URL and credentials required to access Private Agent Factory.
+    > **Note:** Your instructor or workshop environment provides the URL and credentials required to access Private Agent Factory.
 
 2. Sign in using the credentials provided for the workshop.
 
@@ -50,14 +50,14 @@ In this task, you will access Oracle AI Database Private Agent Factory and famil
 
 4. Review the available Private Agent Factory capabilities.
 
-   Depending on the workshop environment and installed version, you will use capabilities for:
+    Depending on the workshop environment and installed version, you will use capabilities for:
 
-   - Creating and managing **Knowledge Agents**.
-   - Creating **Deep Data Research Agents**.
-   - Managing enterprise **Data Sources**.
-   - Building custom agent workflows with **Agent Builder**.
-   - Configuring external **MCP Servers**.
-   - Testing agents and workflows in **Playground**.
+    - Creating and managing **Knowledge Agents**.
+    - Creating **Deep Data Research Agents**.
+    - Managing enterprise **Data Sources**.
+    - Building custom agent workflows with **Agent Builder**.
+    - Configuring external **MCP Servers**.
+    - Testing agents and workflows in **Playground**.
 
 5. Locate the area used to manage **Data Sources**.
 
@@ -89,19 +89,19 @@ A Knowledge Agent uses enterprise content as a knowledge source so that response
 
 4. Enter a name for the data source.
 
-   For example:
+    For example:
 
-   ```text
-   Workshop Enterprise Knowledge
-   ```
+    ```text
+    Workshop Enterprise Knowledge
+    ```
 
 5. Enter a description.
 
-   For example:
+    For example:
 
-   ```text
-   Enterprise documentation used by the workshop Knowledge Agent
-   ```
+    ```text
+    Enterprise documentation used by the workshop Knowledge Agent
+    ```
 
 6. Upload the enterprise documentation provided for this workshop.
 
@@ -111,11 +111,11 @@ A Knowledge Agent uses enterprise content as a knowledge source so that response
 
 8. Wait for Private Agent Factory to process the uploaded content.
 
-   During processing, Private Agent Factory prepares the content so that it can be used as a source of knowledge by an AI agent.
+    During processing, Private Agent Factory prepares the content so that it can be used as a source of knowledge by an AI agent.
 
 9. Verify that the data source is ready before continuing.
 
-   > **Important:** Do not continue until processing of the workshop documents has completed successfully.
+    > **Important:** Do not continue until processing of the workshop documents has completed successfully.
 
 ### Create the Knowledge Agent
 
@@ -165,7 +165,7 @@ A Knowledge Agent uses enterprise content as a knowledge source so that response
 
 22. Enter a question that can be answered using the uploaded workshop documentation.
 
-   > **Note:** Use a question appropriate for the enterprise documents supplied with the workshop.
+    > **Note:** Use a question appropriate for the enterprise documents supplied with the workshop.
 
 23. Submit the question.
 
@@ -195,11 +195,11 @@ A Deep Data Research Agent is designed for questions that require broader invest
 
 3. If the workshop provides a separate set of research documents, create an additional file data source and upload those documents.
 
-   For example:
+    For example:
 
-   ```text
-   Workshop Research Documents
-   ```
+    ```text
+    Workshop Research Documents
+    ```
 
 4. Wait until processing of all required documents has completed successfully.
 
@@ -213,10 +213,10 @@ A Deep Data Research Agent is designed for questions that require broader invest
 
 8. Enter the following information:
 
-   | Field | Value |
-   | --- | --- |
-   | Name | `Enterprise Research Agent` |
-   | Description | `Performs research across workshop enterprise documentation` |
+    | Field | Value |
+    | --- | --- |
+    | Name | `Enterprise Research Agent` |
+    | Description | `Performs research across workshop enterprise documentation` |
 
 9. Select the file data source that contains the workshop research documents.
 
@@ -245,7 +245,7 @@ A Deep Data Research Agent is designed for questions that require broader invest
 
 17. Wait until the agent and its associated knowledge resources are ready.
 
-   > **Note:** Preparing a Deep Data Research Agent can take longer than creating a basic agent because the associated enterprise content must be prepared for research and retrieval.
+    > **Note:** Preparing a Deep Data Research Agent can take longer than creating a basic agent because the associated enterprise content must be prepared for research and retrieval.
 
 ### Test the Deep Data Research Agent
 
@@ -253,7 +253,7 @@ A Deep Data Research Agent is designed for questions that require broader invest
 
 19. Enter a research-oriented question that requires information from multiple parts of the workshop documentation.
 
-   > **Note:** Your instructor may provide a specific research question based on the workshop dataset.
+    > **Note:** Your instructor may provide a specific research question based on the workshop dataset.
 
 20. Submit the question.
 
@@ -306,21 +306,21 @@ Oracle AI Database
 
 3. Enter a name for the MCP Server connection.
 
-   For example:
+    For example:
 
-   ```text
-   Oracle Database MCP
-   ```
+    ```text
+    Oracle Database MCP
+    ```
 
 4. Enter the MCP Server URL obtained in **Lab 1: Configure MCP Server for Oracle AI Database**.
 
-   > **Note:** Use the managed Database Tools MCP Server created in Lab 1. Do not configure an Autonomous Database MCP Server for this workshop.
+    > **Note:** Use the managed Database Tools MCP Server created in Lab 1. Do not configure an Autonomous Database MCP Server for this workshop.
 
 5. Select the authentication method required by the MCP Server configuration created in Lab 1.
 
 6. Provide the required authentication information.
 
-   > **Important:** Treat access tokens, client secrets, and other authentication credentials as sensitive information. Do not enter credentials into agent prompts or other fields that do not require them.
+    > **Important:** Treat access tokens, client secrets, and other authentication credentials as sensitive information. Do not enter credentials into agent prompts or other fields that do not require them.
 
 7. Test the MCP Server connection.
 
@@ -328,7 +328,7 @@ Oracle AI Database
 
 9. Review the tools discovered from the MCP Server.
 
-   The available tools are determined by the MCP toolset configured on the managed MCP Server in Lab 1.
+    The available tools are determined by the MCP toolset configured on the managed MCP Server in Lab 1.
 
    <!-- ![MCP Server tools](./images/mcp-server-tools.png) -->
 
@@ -471,3 +471,8 @@ This architecture enables AI applications to use enterprise database capabilitie
 
 
 
+
+## Acknowledgements
+
+* **Author** - TODO: Your Name, Your Title, Your Organization
+* **Last Updated By/Date** - TODO: Your Name, Month Year
