@@ -25,7 +25,7 @@ In this lab, you will log in to your Azure Event Account to complete the hands-o
 
 
 
-## Task 1: Log in to your Azure Event Account
+## Task 1: Log in to Azure Event Account
 
 
 You may now **proceed to the next lab**
@@ -34,6 +34,6 @@ You may now **proceed to the next lab**
 
 **Authors** 
 
-* Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
+* Leo Alvarado, Sebastian Solbach, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
 
 **Last Updated Date** - August, 2026

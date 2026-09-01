@@ -10,10 +10,12 @@
 
  
 ## Task 1: Create an AI agent with Azure Foundry and connect them to Oracle AI Database@Azure through the MCP Server. 
-## Task 2: Test the AI Agent. 
 
 
 ## Acknowledgements
 
-* **Author** - TODO: Your Name, Your Title, Your Organization
-* **Last Updated By/Date** - TODO: Your Name, Month Year
+**Authors** 
+
+* Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
+
+**Last Updated Date** - August, 2026
