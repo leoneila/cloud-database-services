@@ -2,13 +2,13 @@
 
 ## Introduction
 
-In this lab, you will log in to your Azure Event Account to complete the hands-on exercises.
+In this lab, you will log in to your ***Azure Event Account*** to complete the hands-on exercises.
 
 **Estimated Time:** ***3 minutes***
 
 <u>**Types of Cloud Accounts that can be used for this workshop:**</u>
 
-   * ***Customer Tenancy (Azure Regular Account)***: When your tenancy is provisioned, the default administrator receives a welcome email with the sign-in URL and credentials. The administrator can then create users and assign access using Identity and Access Management (IAM).
+   * ***Customer Tenancy (Azure Regular Account)***: When your tenancy is provisioned, The administrator can create users and assign access using Azure Identity and Access Management.
     
     * Ensure your tenancy has access to the required regions and service limits
     * Contact your administrator if you need credentials or permissions
