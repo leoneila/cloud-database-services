@@ -58,7 +58,7 @@ Key requirements include:
     open TDE wallet.
 -   The SSH key on the ZDM service host is in RSA format.
 
-------------------------------------------------------------------------
+
 
 ## Additional Configuration
 

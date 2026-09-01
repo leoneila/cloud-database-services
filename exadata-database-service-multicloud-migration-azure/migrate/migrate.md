@@ -108,7 +108,7 @@ PHYSICAL STANDBY</copy>
 At this stage, source changes are synchronized to the target. Resume the
 job when the application is ready for migration.
 
-------------------------------------------------------------------------
+
 
 ## Task 2: Complete the Migration
 
