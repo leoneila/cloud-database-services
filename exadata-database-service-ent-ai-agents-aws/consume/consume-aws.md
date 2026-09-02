@@ -1,4 +1,4 @@
-# Build Multicloud AI Agents with Amazon Bedrock, MCP, and Oracle AI Database@AWS
+# Integrate Amazon Bedrock AI Applications with Oracle AI Database@AWS using MCP
 
 ## Introduction
 
@@ -6,14 +6,22 @@
 
 ### Objectives
 
-- Build AI agents with Amazon Bedrock and connect them to Oracle AI Database@AWS through the MCP Server configured in Lab 1.
+- Build sample AI applications using Amazon Bedrock.
+- Integrate Amazon Bedrock applications with Oracle AI Database@AWS using MCP.
+- Access Oracle AI Database@AWS through the MCP Server configured in Lab 1.
 
+> ***IMPORTANT — The detailed instructions for this task are provided in a separate lab guide.***
+> 
+> The detailed instructions for this task are provided in a separate lab guide. Refer to the accompanying guide to build the Amazon Bedrock sample application and integrate it with Oracle AI Database@AWS through the MCP Server configured in Lab 1.
  
-## Task 1: Create an AI agent with AWS Bedrock and connect them to Oracle AI Database@AWS through the MCP Server. 
-## Task 2: Test the AI Agent. 
+## Task 1: Build an Amazon Bedrock Application Using MCP and Oracle AI Database@AWS
+
 
 
 ## Acknowledgements
 
-* **Author** - TODO: Your Name, Your Title, Your Organization
-* **Last Updated By/Date** - TODO: Your Name, Month Year
+**Authors** 
+
+* Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
+
+**Last Updated Date** - August, 2026

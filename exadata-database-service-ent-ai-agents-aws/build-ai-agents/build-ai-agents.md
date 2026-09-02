@@ -474,5 +474,8 @@ This architecture enables AI applications to use enterprise database capabilitie
 
 ## Acknowledgements
 
-* **Author** - TODO: Your Name, Your Title, Your Organization
-* **Last Updated By/Date** - TODO: Your Name, Month Year
+**Authors** 
+
+* Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
+
+**Last Updated Date** - August, 2026

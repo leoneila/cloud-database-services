@@ -12,7 +12,7 @@ Access to the MCP Server is controlled through OCI IAM Identity Domains and OAut
 
 In later labs, you will use this MCP Server to enable AI agents running across different cloud environments to securely interact with Oracle AI Database.
 
-**Estimated Time:** 15 minutes
+**Estimated Time:** 10 minutes
 
 ### Objectives
 
@@ -276,5 +276,8 @@ In the next lab, you will use this MCP foundation to build enterprise AI agent c
 
 ## Acknowledgements
 
-- **Author** - Oracle
-- **Last Updated By/Date** - Oracle, August 2026
+**Authors** 
+
+* Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
+
+**Last Updated Date** - August, 2026

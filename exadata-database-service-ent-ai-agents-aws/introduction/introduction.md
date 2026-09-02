@@ -3,7 +3,7 @@
 ## Introduction
 Enterprise AI is moving beyond chatbots and Retrieval-Augmented Generation (RAG) applications. Modern AI applications combine enterprise knowledge, live business data, APIs, and autonomous reasoning to accomplish real business tasks.
 
-In this workshop, you'll build an Enterprise AI Agent using Oracle AI Database and Oracle AI Database Private Agent Factory. You'll create a Knowledge Agent grounded on enterprise documentation, build a Custom Agent that securely interacts with a live Oracle Database through an MCP Server, expose the agent as a REST API, and integrate it with an external AI service such as Amazon Bedrock or Azure AI Foundry.
+In this workshop, you'll build an Enterprise AI Agent using Oracle AI Database and Oracle AI Database Private Agent Factory. You'll create a Knowledge Agent grounded on enterprise documentation, build a Custom Agent that securely interacts with a live Oracle Database through an MCP Server, expose the agent as a REST API, and integrate it with an external AI service such as Amazon Bedrock.
 
 You'll also explore how Oracle Private AI Container Service  enables private inference using customer-managed embedding models and large language models, allowing enterprise AI workloads to remain entirely within a private environment.
 
@@ -32,7 +32,7 @@ You can start small using virtual machine (VM) cluster configurations with as li
 
 
 
-**Estimated Workshop Time:** 120 minutes.
+**Estimated Workshop Time:** 30 minutes.
 
 ### Objectives
 
@@ -43,7 +43,7 @@ After completing this workshop, you will be able to:
 * Build a Custom Agent using MCP Server integration
 * Securely query Oracle AI Database through AI agents
 * Expose AI agents as REST APIs
-* Integrate Oracle AI agents with Amazon Bedrock or Azure AI Foundry
+* Integrate Oracle AI agents with Amazon Bedrock
 * Understand how Oracle Private AI Container Service enables private AI deployments
 * Build multicloud AI applications while keeping enterprise data governed inside Oracle AI Database
 
@@ -51,7 +51,7 @@ Users are encouraged to skip around to the lab most pertinent to them.
 
 ### Prerequisites
 
-* An OCI Tenancy with the assigned username and password.
+* An Oracle AI Database@AWS Account with the assigned username and password.
 * An Agent Factory Instance with the assigned username and password.
 * An Exascale Database Instance 
 
