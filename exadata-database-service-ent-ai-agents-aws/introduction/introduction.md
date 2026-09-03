@@ -65,4 +65,4 @@ You may now **proceed to the next lab**
 
 * Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
 
-**Last Updated Date** - April, 2026
+**Last Updated Date** - August, 2026

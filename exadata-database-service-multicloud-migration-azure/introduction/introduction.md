@@ -59,10 +59,10 @@ Key requirements include:
 -   The SSH key on the ZDM service host is in RSA format.
 
 
+<!--
+Additional Configuration Considerations:
 
-## Additional Configuration
-
-### SSH Key
+**SSH Key**
 
 Check the key format:
 
@@ -82,7 +82,7 @@ Change an existing SSH key to RSA format if required:
 <copy>[zdmuser@zdmhost ~]$ ssh-keygen -p -m PEM -f id_rsa</copy>
 ```
 
-### TDE Wallet
+**TDE Wallet**
 
 If the source database is not TDE enabled, configure the auto-login
 wallet before migration.
@@ -156,7 +156,7 @@ order by p.con_id;</copy>
 ```
 
 ------------------------------------------------------------------------
-
+-->
 
 You may now **proceed to the next lab**
 

@@ -18,9 +18,9 @@ In this lab, you will:
 
 ## Task 1: Review the Target Architecture
 
-![architecture](./images/introduction.png " ")
+<!--![architecture](./images/introduction.png " ")
 
-Figure 1. This is a High-Level Architectural overview showcasing the customer data center where the source database and ZDM’s server reside. It also shows all connectivity to the target Oracle Exadata Database Service on Oracle AI Database@AWS.
+Figure 1. This is a High-Level Architectural overview showcasing the customer data center where the source database and ZDM’s server reside. It also shows all connectivity to the target Oracle Exadata Database Service on Oracle AI Database@AWS.-->
 
 
 ## Task 2: Provision Oracle Exadata Database Service on Exascale Infrastructure on Oracle AI Database@AWS

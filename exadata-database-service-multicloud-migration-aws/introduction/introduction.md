@@ -10,7 +10,7 @@ perform a physical online migration of an Oracle AI Database to **Oracle
 Exadata Database Service on Exascale Infrastructure on Oracle
 AI Database@AWS**.
 
-![architecture](./images/introduction.png " ")
+<!-- ![architecture](./images/introduction.png " ")-->
 
 The physical online workflow uses **Direct Data Transfer** with RMAN
 **Restore from Service** to instantiate the target database. Oracle Data
@@ -72,11 +72,10 @@ Key requirements include:
     open TDE wallet.
 -   The SSH key on the ZDM service host is in RSA format.
 
+<!--
+Additional Configuration
 
-
-## Additional Configuration
-
-### SSH Key
+**SSH Key**
 
 Check the key format:
 
@@ -96,7 +95,7 @@ Change an existing SSH key to RSA format if required:
 <copy>[zdmuser@zdmhost ~]$ ssh-keygen -p -m PEM -f id_rsa</copy>
 ```
 
-### TDE Wallet
+**TDE Wallet**
 
 If the source database is not TDE enabled, configure the auto-login
 wallet before migration.
@@ -171,6 +170,7 @@ order by p.con_id;</copy>
 
 ------------------------------------------------------------------------
 
+-->
 
 You may now **proceed to the next lab**
 
