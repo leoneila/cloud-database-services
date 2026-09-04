@@ -43,14 +43,18 @@ In this task, you will access Oracle AI Database Private Agent Factory and famil
    > **Note:** Your instructor or workshop environment provides the URL and credentials required to access Private Agent Factory.
 
 2. Sign in using the credentials provided for the workshop.
+   
+   ![login](./images/login.png " ")
 
 3. After signing in, verify that the Private Agent Factory home page is displayed.
 
-   <!-- ![Private Agent Factory home page](./images/private-agent-factory-home.png) -->
+   ![home-page](./images/home-page.png " ")
 
 4. Review the available Private Agent Factory capabilities.
 
    Depending on the workshop environment and installed version, you will use capabilities for:
+
+   ![capabilities](./images/capabilities.png " ")
 
    - Creating and managing **Knowledge Agents**.
    - Creating **Deep Data Research Agents**.
@@ -60,16 +64,21 @@ In this task, you will access Oracle AI Database Private Agent Factory and famil
    - Testing agents and workflows in **Playground**.
 
 5. Locate the area used to manage **Data Sources**.
+   
+   ![datasource](./images/datasource.png " ")
 
 6. Verify that you can access the area used to create agents.
 
-7. Locate **Agent Builder**.
+   Locate **Agent Builder**.
 
-8. Locate **MCP Servers**.
+   ![agent-builder](./images/agent-builder.png " ")
+   
+
+7. Locate **MCP Servers**.
+   
+   ![mcp-server](./images/mcp-server.png " ")
 
    You will use these capabilities later in this lab to build a custom agent that can interact with Oracle AI Database through the MCP Server created in Lab 1.
-
-> **Note:** The exact placement of navigation items can vary slightly depending on the Private Agent Factory release used by the workshop.
 
 You are now ready to create your first enterprise AI agent.
 
