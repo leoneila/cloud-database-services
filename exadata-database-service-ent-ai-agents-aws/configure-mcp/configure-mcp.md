@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> ***This lab uses a pre-configured MCP Server environment.***
+> ***IMPORTANT — Pre-configured Environment.*** The MCP servers used in this HOL are **preconfigured** and ready to use for this session. The configuration steps included in the following tasks are provided for instructional purposes only and will be discussed during the session. ***You do not need to perform these steps unless instructed.***
 
 In this lab, you will configure an **OCI Database Tools Model Context Protocol (MCP) Server** to provide secure, governed access to Oracle AI Database.
 
@@ -34,9 +34,7 @@ Before starting this lab, verify that the following resources are available:
 
 
 
-> ***IMPORTANT — Pre-configured Environment***
-> 
-> The MCP Server environment used in this lab has been ***pre-configured for this session***. The configuration steps in the following tasks are provided for reference and will be discussed during the session. ***You do not need to perform these steps unless instructed.***
+> ***IMPORTANT — Pre-configured Environment.*** The MCP servers used in this HOL are **preconfigured** and ready to use for this session. The configuration steps included in the following tasks are provided for instructional purposes only and will be discussed during the session. ***You do not need to perform these steps unless instructed.***
 
 ## Task 1: Configure MCP Server for Oracle AI Database. 
 

@@ -21,18 +21,19 @@ In this lab, you will log in to your ***AWS Event Account*** to complete the han
 
 
 ### Objectives
-* Log in to your AWS Event Account to complete the hands-on exercises
+* Log in to your Lab environment to complete the hands-on exercises
 
 
 
-## Task 1: Log in to AWS Event Account
+## Task 1: Log in to your Lab Environment
 
+> ***IMPORTANT — Pre-configured Environment.*** Your instructor will provide the URL and workshop credentials required to access the lab environment
 
 You may now **proceed to the next lab**
 
 ## Acknowledgements
 
-**Authors** 
+**Authors**  
 
 * Leo Alvarado, Vishal Patil, Tammy Bednar, Product Management, Oracle Database Cloud Services, Multicloud 
 
