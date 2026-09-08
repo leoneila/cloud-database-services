@@ -88,199 +88,155 @@ In this task, you will create a Knowledge AI Agent grounded in enterprise docume
 
 A Knowledge Agent uses enterprise content as a knowledge source so that responses can be grounded in information provided by your organization rather than relying only on the language model's general knowledge.
 
-### Prepare the Knowledge Source
+### **Locate the Preconfigured Knowledge Source**
 
 1. In Private Agent Factory, navigate to **Data Sources**.
 
-2. Click the option to create a new data source.
+2. Review the available data sources and locate the knowledge source provided for this workshop.
 
-3. Select the file-based data source option.
+   Your instructor will identify the appropriate data source if multiple sources are available.
 
-4. Enter a name for the data source.
+3. From the **Data Sources** navigtate to **Web source** and **File sources**. Review its details, including its name, description, documents, and processing status.
 
-   For example:
+   ![web sources](./images/web-sources.png " ")
 
-   ```text
-   Workshop Enterprise Knowledge
-   ```
+   ![file-sources](./images/file-sources.png " ")
 
-5. Enter a description.
+4. Confirm that the data source is available and ready to use.
 
-   For example:
+   > **Important:** The workshop knowledge sources have already been uploaded for you. **Do not create a new data source or upload additional documents unless instructed.**
 
-   ```text
-   Enterprise documentation used by the workshop Knowledge Agent
-   ```
+### **Create the Knowledge Agent**
 
-6. Upload the enterprise documentation provided for this workshop.
+5. Navigate to **Pre-Built Agents** then select **Knowledge Agent**.
 
-   <!-- ![Upload workshop documentation](./images/upload-knowledge-documents.png) -->
+   Click **Create agent**. 
 
-7. Review the selected documents and start the data-source processing operation.
+   ![click create agent](./images/create-ka.png " ")
 
-8. Wait for Private Agent Factory to process the uploaded content.
+6. Select the data (knowledge) sources for your agent to learn from:
+   
+   Select the knowledge source from **Web sources**
 
-   During processing, Private Agent Factory prepares the content so that it can be used as a source of knowledge by an AI agent.
+   ![select web source](./images/create-ka-step1.png " ")
 
-9. Verify that the data source is ready before continuing.
+   Select the PDF file knowledge source from the **file system**
 
-   > **Important:** Do not continue until processing of the workshop documents has completed successfully.
+   ![select file system](./images/create-ka-step1-fs.png " ")
 
-### Create the Knowledge Agent
+7. In the **Knowledge base configuration** form, enter the following values:
 
-10. Navigate to the area used to create and manage agents.
+   **Agent name** *(required)*
 
-11. Select **Knowledge Agent**.
+        <copy>Exascale AI Development Advisor</copy>
 
-12. Click the option to create a new Knowledge Agent.
+   **Description** *(required)*
 
-13. Enter the following information:
+        <copy>Provides practical guidance on Oracle Exadata Database Service with Exascale, including architecture, development, storage, security, and operations.</copy>
 
-    | Field | Value |
-    | --- | --- |
-    | Name | `Enterprise Knowledge Agent` |
-    | Description | `Answers questions using the workshop enterprise documentation` |
+   For **Generative Model** *(required)*, select **llm-model-entry**
 
-14. Select the data source created earlier:
+   **Help description** *(optional)*
 
-    ```text
-    Workshop Enterprise Knowledge
-    ```
+        <copy>Ask about designing and operating AI development environments on Exascale. I can help with architecture, databases, storage, security, connectivity, backup, monitoring, and operational decisions. I provide concise, practical answers with short bullets and source references. Include the service type, database version, region, workload, and environment scale when known.</copy>
 
-15. Select the language model configured for the workshop environment.
+   Review the information and click on **Next**.
 
-16. Review the remaining agent settings and retain the workshop defaults unless instructed otherwise.
+   ![knowledge agent configuration](./images/ka-configuration.png " ")
 
-17. Configure the agent instructions, if available.
+8. Review and deploy your knowledge agent. Click **Publish agent**
 
-    For example:
+   ![publish agent](./images/publish-ka.png " ")
 
-    ```text
-    Answer questions using the provided enterprise documentation.
-    Base your response on the available knowledge sources.
-    If the requested information is not available in the source material,
-    clearly state that the information could not be found.
-    ```
+   Wait until the agent is ready.
 
-18. Save the agent configuration.
 
-19. Publish or prepare the Knowledge Agent as required by the Private Agent Factory interface.
-
-20. Wait until the agent is ready.
 
 ### Test the Knowledge Agent
 
-21. Open the Knowledge Agent in the chat or testing interface.
+1. Click **Open agent** to open the Knowledge Agent chat interface.
 
-22. Enter a question that can be answered using the uploaded workshop documentation.
+    ![Open Knowledge Agent](./images/open-ka.png)
 
-   > **Note:** Use a question appropriate for the enterprise documents supplied with the workshop.
+2. Enter a question about information contained in the preconfigured workshop knowledge source.
+   
+   Expand the editor mode
 
-23. Submit the question.
+    ![Expand chat](./images/expand-chat.png)
 
-24. Review the response.
+   Use the following sample question:
 
-25. Verify that the answer is based on information contained in the uploaded documents.
+    ```nohighlight
+    <copy>I’m designing an AI development environment on Exadata Database Service on Exascale Infrastructure. We need 20 isolated development PDBs for teams testing AI workloads, including RAG applications, vector search, model evaluation, prompt engineering, and different AI model versions against representative copies of database data.
 
-26. If references or sources are displayed, review them and verify that the response points to the appropriate workshop documentation.
+    Recommend the most suitable way to provision these environments based on the supplied documentation.
 
-27. Ask a follow-up question related to the first response.
+    Compare the available PDB provisioning or cloning approaches, considering:
 
-28. Verify that the Knowledge Agent continues to use the configured enterprise knowledge source when answering.
+    - Initial storage consumption
+    - Capacity growth as teams modify their environments
+    - Performance and production representativeness
+    - Refresh and retirement procedures
+    - Data isolation and security
+    - Operational effort
+    - Version, region, and service prerequisites
 
-You have now created an AI agent grounded in private enterprise documentation.
-
-## Task 3: Create a Deep Data Research AI Agent
-
-In this task, you will create a **Deep Data Research Agent**.
-
-A Deep Data Research Agent is designed for questions that require broader investigation and synthesis across available enterprise information. Instead of returning only a short retrieval-based response, the agent can perform a research-oriented workflow and produce a more comprehensive answer grounded in the configured data.
-
-### Prepare the Research Data
-
-1. Navigate to **Data Sources**.
-
-2. Verify that the file data source used in Task 2 is available and ready.
-
-3. If the workshop provides a separate set of research documents, create an additional file data source and upload those documents.
-
-   For example:
-
-   ```text
-   Workshop Research Documents
-   ```
-
-4. Wait until processing of all required documents has completed successfully.
-
-### Create the Deep Data Research Agent
-
-5. Navigate to the area used to create agents.
-
-6. Select **Deep Data Research Agent**.
-
-7. Click the option to create a new Deep Data Research Agent.
-
-8. Enter the following information:
-
-   | Field | Value |
-   | --- | --- |
-   | Name | `Enterprise Research Agent` |
-   | Description | `Performs research across workshop enterprise documentation` |
-
-9. Select the file data source that contains the workshop research documents.
-
-10. Select the language model provided for the workshop.
-
-11. Select the embedding model provided for the workshop, if prompted.
-
-12. Review the available preparation or research configuration.
-
-13. Retain the values specified for the workshop environment unless instructed otherwise.
-
-14. Configure the agent instructions.
-
-    For example:
-
-    ```text
-    Research the available enterprise information before answering.
-    Synthesize relevant information from the available sources.
-    Include supporting references when available.
-    Do not invent information that is not supported by the enterprise data.
+    Select one recommended approach and explain why it is better than the alternatives. Start with a concise recommendation, then use short bullet points and finish with a brief validation checklist. Use the Exascale overview as the primary reference.</copy>
     ```
 
-15. Save the agent.
+    > **Note:** Choose a question that can be answered using the information in the preconfigured workshop knowledge source. 
+   
+   ![Submit the Question](./images/submit-question.png)
 
-16. Publish or prepare the Deep Data Research Agent.
+   Click the **Send Message** button to submit the question.
 
-17. Wait until the agent and its associated knowledge resources are ready.
 
-   > **Note:** Preparing a Deep Data Research Agent can take longer than creating a basic agent because the associated enterprise content must be prepared for research and retrieval.
+3. Review the Knowledge Agent’s response.
+   
+   ![Review response](./images/review-response.png)
 
-### Test the Deep Data Research Agent
+   Confirm that the response is grounded in information from the workshop documentation.
 
-18. Open the agent in its chat or testing interface.
+   If source references or citations are displayed, review them and confirm that they point to the appropriate workshop documentation.
 
-19. Enter a research-oriented question that requires information from multiple parts of the workshop documentation.
+4. Ask a follow-up question related to the initial response.
+   
+   Use the following sample question:
 
-   > **Note:** Your instructor may provide a specific research question based on the workshop dataset.
+    ```nohighlight
+    <copy>Now act as a security and compliance reviewer for the proposed 20-PDB AI development environment.
 
-20. Submit the question.
+The platform will support RAG, vector search, model evaluation, prompt engineering, and testing different AI model versions against representative database data.
 
-21. Wait for the research workflow to complete.
+Using the supplied Exascale overview and Oracle Exadata Database Service security documentation, assess the security posture of the proposed environment.
 
-22. Review the generated response.
+Focus on:
 
-23. Verify that the response synthesizes information from the configured enterprise sources.
+- Data classification, handling, and protection requirements
+- Private connectivity and network segmentation
+- Encryption in transit and at rest
+- Identity, access control, and privileged operations
+- Database auditing, monitoring, and alerting
+- Backup protection, retention, and recovery
+- Isolation and access boundaries between development teams
 
-24. Review any citations, references, or supporting sources presented with the response.
+For each area, summarize the relevant controls and validation actions, focusing on how they apply to the Exascale environment.
 
-25. Compare the experience with the Knowledge Agent created in Task 2.
+Begin with a concise security recommendation, use short bullet points, and conclude with the most important security action, the top three validation steps, and relevant source references.</copy>
+    ```
 
-The Knowledge Agent provides grounded question answering over enterprise knowledge, while the Deep Data Research Agent is designed for more comprehensive research and synthesis across available information.
+   Click the **Send Message** button to submit the question.
 
-You have now created two different enterprise AI agents using Private Agent Factory.
+   ![Submit the Question](./images/security-ka.png)
 
-## Task 4: Create a Custom AI Agent with MCP Tool
+5. Confirm that the Knowledge Agent continues to use the configured knowledge source when answering the follow-up question.
+   
+   ![Review security question](./images/review-security-ka.png)
+
+Congratulations! You have successfully created and tested a Knowledge Agent grounded in your organization’s internal knowledge source. The agent can retrieve relevant information from the supplied enterprise documentation and use it to generate grounded responses.
+
+
+## Task 3: Create a Custom AI Agent with MCP Tool
 
 In this task, you will use **Agent Builder** to create a custom AI agent that interacts with Oracle AI Database through the managed MCP Server configured in Lab 1.
 
@@ -307,158 +263,174 @@ OCI Database Tools MCP Server
 Oracle AI Database
 ```
 
-### Add the MCP Server to Private Agent Factory
+### **Review the Preconfigured MCP Server**
 
-1. In Private Agent Factory, navigate to **MCP Servers**.
+In this task, you will locate and review the MCP Server that has already been configured in Oracle AI Database Private Agent Factory.
 
-2. Click the option to add a new MCP Server.
+1. In the left navigation menu, scroll to **Utilities**.
 
-3. Enter a name for the MCP Server connection.
+2. Select **MCP Servers**.
 
-   For example:
+3. Locate the preconfigured MCP Server named: ***MCP Server for Exadata Database Service on Exascale Infrastructure***
+   
 
-   ```text
-   Oracle Database MCP
-   ```
+4. Confirm that the MCP Server status is **Connected**.
+   
+   ![mcp servers](./images/mcp-servers.png)
 
-4. Enter the MCP Server URL obtained in **Lab 1: Configure MCP Server for Oracle AI Database**.
+   > **Important:** The MCP Server has already been configured for you. Do not click **Add MCP server**, modify the configuration, enter credentials, or delete the existing MCP Server.
 
-   > **Note:** Use the managed Database Tools MCP Server created in Lab 1. Do not configure an Autonomous Database MCP Server for this workshop.
 
-5. Select the authentication method required by the MCP Server configuration created in Lab 1.
+5. In the **Actions** column, click the **View** icon.
 
-6. Provide the required authentication information.
+6. Review the MCP Server details displayed in the dialog, including:
 
-   > **Important:** Treat access tokens, client secrets, and other authentication credentials as sensitive information. Do not enter credentials into agent prompts or other fields that do not require them.
+   - MCP Server name
+   - Resource access
+   - Sharing information
+   - Ownership
 
-7. Test the MCP Server connection.
+   <!-- ![MCP Server details](./images/mcp-server-details.png) -->
 
-8. Verify that Private Agent Factory can successfully communicate with the MCP Server.
+You have now located and reviewed the preconfigured MCP Server in Private Agent Factory.
 
-9. Review the tools discovered from the MCP Server.
+### **Create a Custom Agent Flow**
 
-   The available tools are determined by the MCP toolset configured on the managed MCP Server in Lab 1.
+7. Navigate to **Agent Builder**.
+   
+   ![agent builder](./images/navigate-agent-builder.png)
 
-   <!-- ![MCP Server tools](./images/mcp-server-tools.png) -->
+8. On the Agent Builder canvas, add the components required for the custom agent workflow.
+   
+   Add the **Agent** component 
 
-10. Save the MCP Server configuration.
+    ![name flow](./images/name-flow.png)
 
-### Create a Custom Agent Flow
+9. Enter a name for the flow.
+    
+    For example:
 
-11. Navigate to **Agent Builder**.
+    ```text
+    <copy>Database MCP Agent</copy>
+    ```
 
-12. Click **Create New Flow**.
-
-13. Enter a name for the flow.
+   Enter a description.
 
     For example:
 
     ```text
-    Database MCP Agent
+    <copy>Custom AI agent that interacts with Oracle AI Database using MCP</copy>
     ```
 
-14. Enter a description.
+   ![name flow](./images/name-flow-save.png)
 
-    For example:
+10. Click **Save changes** to create the flow.
 
-    ```text
-    Custom AI agent that interacts with Oracle AI Database using MCP
+
+### **Configure the Agent**
+
+11. Select the **Agent** component on the canvas.
+
+12. Under **Select LLM to use**, select the LLM provided for the workshop environment:
+
+    select ***llm-model-entry (oci)***
+
+13. In **Custom instructions**, enter the following:
+
+    ```nohighlight
+    <copy>You are an enterprise database assistant.
+
+    Use the connected MCP tools whenever information must be retrieved from Oracle AI Database.
+
+    Base database-related answers on information returned by the MCP tools. Do not invent database records, values, or query results.
+
+    Provide clear and concise responses using short bullet points. When appropriate, include the tool or database information used to support the answer.</copy>
     ```
 
-15. Create the flow.
+14. In **Agent description**, enter the name of the agent:
 
-16. On the Agent Builder canvas, add the components required for the custom agent workflow.
-
-    The workflow should contain components equivalent to:
-
-    ```text
-    Chat Input -> Prompt -> Agent -> Chat Output
-                               ^
-                               |
-                           MCP Server
+    ```nohighlight
+    <copy>Exascale Data Assistant</copy>
     ```
 
-    <!-- ![Custom MCP agent flow](./images/custom-mcp-agent-flow.png) -->
+15. Leave the **Prompt** field blank.
 
-### Configure the Agent
+16. Leave **Temperature** at the workshop default of `0.01`.
 
-17. Select the **Agent** component.
+17. Review the Agent configuration 
 
-18. Select the language model provided for the workshop environment.
+   ![name flow](./images/configure-agent.png)
 
-19. Configure the agent instructions.
 
-    For example:
+### **Add the MCP Tools**
 
-    ```text
-    You are an enterprise database assistant.
+18. Add an **MCP Server** component to the workflow. Select the MCP Server connection configured earlier.
 
-    Use the available MCP tools whenever information must be retrieved
-    from Oracle AI Database.
+    Review the tools available from the MCP Server.
 
-    Base database-related answers on information returned by the MCP tools.
-    Do not invent database records, values, or query results.
+   ![mcp server tool](./images/mcp-server-tool.png)
 
-    Provide clear and concise responses to the user.
-    ```
-
-20. Save the Agent configuration.
-
-### Add the MCP Tools
-
-21. Add an **MCP Server** component to the workflow.
-
-22. Select the MCP Server connection configured earlier:
-
-    ```text
-    Oracle Database MCP
-    ```
-
-23. Review the tools available from the MCP Server.
-
-24. Select only the tools required by this custom agent.
+   Select only the tools required by this custom agent.
 
     > **Note:** Limiting an agent to the tools required for its intended task reduces unnecessary capabilities and helps maintain a governed agent workflow.
 
-25. Connect the MCP Server component to the **Tools** input of the Agent component.
+19. Connect the MCP Server component to the **Tools** input of the Agent component.
+    
+   ![mcp server tool](./images/connect-mcp.png)
 
-26. Verify that the remaining workflow components are connected correctly.
+20. Verify that the remaining workflow components are connected correctly.
+    
+    Add the Chat Input and Chat Output components.
 
-27. Save the custom agent flow.
+   ![chat components](./images/chat-components.png)
 
-### Test the MCP Connection in Playground
+    Connect both components to the Agent 
 
-28. Open the completed workflow in **Playground**.
+   ![connect chat](./images/connect-chat.png)
 
-29. Enter a prompt that asks the agent about its available database capabilities.
+
+21. Click **Save** to save the custom agent flow.
+    
+   ![save flow](./images/save-flow.png)
+
+### **Test the MCP Connection in Playground**
+
+22. Open the completed workflow in **Playground**.
+    
+   ![open playground](./images/playground.png)
+
+23. Enter a prompt that asks the agent about its available database capabilities.
+   
+   ![chat mcp](./images/mcp-chat.png)
 
     For example:
 
     ```text
-    What database tools do you have available?
+    <copy>What database tools do you have available?</copy>
     ```
 
-30. Submit the prompt.
+   Submit the prompt.
 
-31. Verify that the agent recognizes the tools exposed through the MCP Server.
+24. Verify that the agent recognizes the tools exposed through the MCP Server.
 
-32. Enter a natural-language question that requires information from the Oracle AI Database.
+25. Enter a natural-language question that requires information from the Oracle AI Database.
 
     > **Note:** Use a question that corresponds to the sample database objects and data provided with the workshop.
 
-33. Submit the question.
+26. Submit the question.
 
-34. Observe the agent execution.
+27. Observe the agent execution.
 
-35. Verify that the agent invokes an appropriate MCP tool rather than attempting to answer the database-specific question using only the language model.
+28. Verify that the agent invokes an appropriate MCP tool rather than attempting to answer the database-specific question using only the language model.
 
-36. Review the response returned by the agent.
+29. Review the response returned by the agent.
 
-37. Verify that the answer is based on information returned from Oracle AI Database.
+30. Verify that the answer is based on information returned from Oracle AI Database.
+
+
+Congratulations! You have now created a custom AI agent that can interact with Oracle AI Database through the managed MCP Server.
 
 ### Verify the Custom Agent
-
-You have now created a custom AI agent that can interact with Oracle AI Database through the managed MCP Server.
 
 The workflow separates the AI agent from direct database connectivity:
 

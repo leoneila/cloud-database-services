@@ -21,12 +21,13 @@ In this lab, you will log in to your ***Azure Event Account*** to complete the h
 
 
 ### Objectives
-* Log in to your Azure Event Account to complete the hands-on exercises
+* Log in to your Lab environment to complete the hands-on exercises
 
 
 
-## Task 1: Log in to your Azure Event Account
+## Task 1: Log in to your Lab Environment
 
+> ***IMPORTANT — Pre-configured Environment.*** Your instructor will provide the URL and workshop credentials required to access the lab environment
 
 You may now **proceed to the next lab**
 
